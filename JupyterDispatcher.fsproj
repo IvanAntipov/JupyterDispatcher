@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>JupyterDispatcher</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>IvanAntipov</Authors>
+    <Description>Helpers for invoke actions in single thread. (Workaround to use pythonnet from dotnet interactive)</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Jupyter;dotnetinteractive;pythonnet</PackageTags>
+    <RepositoryUrl>https://github.com/IvanAntipov/JupyterDispatcher</RepositoryUrl>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+</Project>
